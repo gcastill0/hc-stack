@@ -3,7 +3,7 @@
 #
 variable "prefix" {
   description = "Interrupt Software"
-  default     = "rbi"
+  default     = "tester"
 }
 
 variable "location" {
@@ -16,7 +16,7 @@ variable "tags" {
 
   default = {
     environment = "IS Test"
-    owner       = "Ian Walker"
+    owner       = "Gilberto"
   }
 
   description = "Basic tags"
